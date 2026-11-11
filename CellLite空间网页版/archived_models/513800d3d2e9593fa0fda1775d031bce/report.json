@@ -1,0 +1,25 @@
+{
+  "id": "513800d3d2e9593fa0fda1775d031bce",
+  "name": "回肠NGC基因共定位_v1",
+  "engine": "ngc_context_v1",
+  "validation": {
+    "ami": 0.740373641379725
+  },
+  "test": {
+    "ami": 0.7891269868120651,
+    "ari": 0.5432164323762511,
+    "recall_iou50": 0.2778787878787879
+  },
+  "selected": {
+    "mix": 0.25,
+    "resolution": 0.006,
+    "recall": 0.4669312169312169,
+    "iou": 0.4662167223234508,
+    "ami": 0.740373641379725
+  },
+  "target_met": true,
+  "training_rows": 35394,
+  "evaluation_scope": "5个人工部分标注开发区域的均值；非跨样本盲测，部分区域AMI低于0.7。",
+  "limitations": "二维回肠同类基因面板；不排除背景。未证明超过几何回退；AMI接近本地Bering对照但ARI仍较低。",
+  "name_persistent": true
+}

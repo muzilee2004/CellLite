@@ -1,0 +1,126 @@
+{
+  "id": "901b0221d2284840af24c2b896dcfa12",
+  "validation": {
+    "ami": 0.7332860582274789,
+    "ari": 0.4172164044516978
+  },
+  "test": {
+    "ami": 0.6543969662019706,
+    "ari": 0.27599957700869115
+  },
+  "target_met": false,
+  "selected": {
+    "mix": 0.0,
+    "resolution": 0.01,
+    "validation": {
+      "ami": 0.7332860582274789,
+      "ari": 0.4172164044516978
+    }
+  },
+  "split_rows": [
+    20471,
+    5501,
+    5773
+  ],
+  "grid": [
+    {
+      "mix": 0.0,
+      "resolution": 0.001,
+      "validation": {
+        "ami": 0.6179465325433885,
+        "ari": 0.368230586450164
+      }
+    },
+    {
+      "mix": 0.0,
+      "resolution": 0.003,
+      "validation": {
+        "ami": 0.7115266912404652,
+        "ari": 0.4531185522523166
+      }
+    },
+    {
+      "mix": 0.0,
+      "resolution": 0.01,
+      "validation": {
+        "ami": 0.7332860582274789,
+        "ari": 0.4172164044516978
+      }
+    },
+    {
+      "mix": 0.0,
+      "resolution": 0.03,
+      "validation": {
+        "ami": 0.7156400547813828,
+        "ari": 0.290313067818909
+      }
+    },
+    {
+      "mix": 0.5,
+      "resolution": 0.001,
+      "validation": {
+        "ami": 0.6860145301733169,
+        "ari": 0.46711807836115
+      }
+    },
+    {
+      "mix": 0.5,
+      "resolution": 0.003,
+      "validation": {
+        "ami": 0.7228405959364143,
+        "ari": 0.4485426813335396
+      }
+    },
+    {
+      "mix": 0.5,
+      "resolution": 0.01,
+      "validation": {
+        "ami": 0.7248443955115406,
+        "ari": 0.37786978831490226
+      }
+    },
+    {
+      "mix": 0.5,
+      "resolution": 0.03,
+      "validation": {
+        "ami": 0.6989085601963788,
+        "ari": 0.2433449273986419
+      }
+    },
+    {
+      "mix": 1.0,
+      "resolution": 0.001,
+      "validation": {
+        "ami": 0.7192683315217769,
+        "ari": 0.5253680636157482
+      }
+    },
+    {
+      "mix": 1.0,
+      "resolution": 0.003,
+      "validation": {
+        "ami": 0.7306822368708874,
+        "ari": 0.4463920222491652
+      }
+    },
+    {
+      "mix": 1.0,
+      "resolution": 0.01,
+      "validation": {
+        "ami": 0.7146259201859969,
+        "ari": 0.3161995452654254
+      }
+    },
+    {
+      "mix": 1.0,
+      "resolution": 0.03,
+      "validation": {
+        "ami": 0.6839472398169035,
+        "ari": 0.20995129504473847
+      }
+    }
+  ],
+  "method": "ExtraTrees learned pair classifier + spatial Leiden; validation may select geometry-only fallback if mix=0",
+  "limitations": "单样本开发空间留出；非跨样本效果保证；参考必须来自独立标注，不能用本程序预测值充当真值。当前未识别背景。",
+  "name": "8号"
+}

@@ -1,0 +1,21 @@
+{
+  "molecules": 16436,
+  "clusters": 110,
+  "neighbors": 32,
+  "resolution": 0.01,
+  "background_rejection": false,
+  "ami": 0.7282865889672655,
+  "ari": 0.2966325679464028,
+  "reference_cells": 50,
+  "evaluated_foreground": 16279,
+  "median_molecules_per_group": 156.0,
+  "small_groups_under_10": 3,
+  "x_range": [
+    -2579.974,
+    -2512.192
+  ],
+  "y_range": [
+    -694.5055,
+    -533.4195
+  ]
+}

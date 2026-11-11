@@ -1,0 +1,28 @@
+{
+  "report": {
+    "molecules": 13632,
+    "clusters": 73,
+    "neighbors": 32,
+    "resolution": 0.006,
+    "background_rejection": false,
+    "model_id": "513800d3d2e9593fa0fda1775d031bce",
+    "model_name": "回肠NGC基因共定位_v1",
+    "engine": "ngc_context_v1",
+    "evaluation_scope": "5个人工部分标注开发区域的均值；非跨样本盲测，部分区域AMI低于0.7。",
+    "ami": 0.717195635748989,
+    "ari": 0.4104055965680298,
+    "reference_cells": 8,
+    "evaluated_foreground": 3488,
+    "median_molecules_per_group": 194.0,
+    "small_groups_under_10": 0,
+    "x_range": [
+      0.0,
+      880.0
+    ],
+    "y_range": [
+      8.0,
+      1199.0
+    ]
+  },
+  "exact_predictions_match": true
+}

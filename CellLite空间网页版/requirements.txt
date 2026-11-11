@@ -1,0 +1,9 @@
+numpy
+pandas
+scikit-learn
+igraph
+leidenalg
+
+pillow
+scipy
+scikit-image

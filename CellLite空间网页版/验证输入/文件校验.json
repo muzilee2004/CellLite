@@ -1,0 +1,30 @@
+{
+  "01_自训练_带参考编号.csv": {
+    "bytes": 7425235,
+    "sha256": "c898cde6fa8af2a0e8234f0d908f9f5657b7c3b97f73fc8f6861ccb3f41c542b"
+  },
+  "02_模型预测_无参考编号.csv": {
+    "bytes": 653856,
+    "sha256": "deed67c103a52042dfc04d97ac46d38ba14a2cfe8b456a957a8f3bedd2021e9d"
+  },
+  "03_预测评测_带参考编号.csv": {
+    "bytes": 1288526,
+    "sha256": "a377f798443513bc61b5ff626694995744cdc9e61b714c0e8c0d46ea8910a7b3"
+  },
+  "04_已有结果分析.csv": {
+    "bytes": 1334665,
+    "sha256": "49d36170f04155dc2195246f67e11ac42385559e85604b01b5caccc78aa0bdba"
+  },
+  "05_空间聚类_坐标.csv": {
+    "bytes": 413578,
+    "sha256": "b8c5347ed5eab6eaf652e680cd9f23d5268b2ac21e44e0c8a66477ebce3e963d"
+  },
+  "06_显微分割_9目标.png": {
+    "bytes": 468,
+    "sha256": "e51d905029d5a4c2ad034be8690a76222d55d84a9675f88fb0dc8996c00cb47b"
+  },
+  "预期结果.json": {
+    "bytes": 346,
+    "sha256": "0c9927dec6f8875882745d33d6c9bebc9d3165136a7f288eed581b354609c18b"
+  }
+}

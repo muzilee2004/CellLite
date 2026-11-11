@@ -1,0 +1,12 @@
+{
+  "trained_prediction": {
+    "ami": 0.7539733629572484,
+    "ari": 0.3900491181755906
+  },
+  "molecules": 16436,
+  "predicted_groups": 78,
+  "coordinate_groups": 110,
+  "microscopy_count": 9,
+  "rename_persistence_test": "passed",
+  "warning": "预测验证文件来自同一历史开发留出区，不是新的跨样本盲测。"
+}
